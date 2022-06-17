@@ -1,0 +1,25 @@
+.app-header {
+    display: flex;
+    position: fixed;
+    background-color: #1C2126;
+    width: 100%;
+    height: 75px;
+
+    .app-logo {
+        padding: 12px 0px 0px 12px; //top right bot left
+    }
+
+    .app-title-text {
+        position: absolute;
+        color: aliceblue;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 23px;
+        text-shadow: 0 0 3px #FF0000;
+    }
+
+    .app-button-group {
+        position: absolute;
+        right: 50px;
+    }
+}

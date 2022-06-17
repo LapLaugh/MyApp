@@ -1,0 +1,95 @@
+// Button
+.app-btn {
+    color: aliceblue;
+    background-color: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    margin-top: 25px;
+    padding-bottom: 5px;
+
+    &:hover {
+        opacity: 60%;
+        cursor: pointer;
+        border-bottom: 4px solid #FD395D;
+        border-right: 0px;
+        border-left: 0px;
+        animation-name: search-animation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.app-btn-active {
+    border-bottom: 4px solid #FD395D;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.app-search {
+    background-color: inherit;
+    width: 200px;
+    height: 35px;
+    border-bottom: 4px solid aliceblue;
+    border-right: 0px;
+    border-left: 0px;
+
+    &:focus {
+        animation-name: search-animation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        outline: none;
+        caret-color: aliceblue;
+        color: aliceblue;
+        font-size: 16px;
+    }
+}
+
+.icon-search {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+// Carousel
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .carousel-inner {
+        width: 100%;
+        height: 100%;
+
+        .item {
+            height: 100%;
+        }
+
+        .center {
+            height: 99%;
+            width: 99%;
+        }
+    }
+
+}
+
+@keyframes search-animation {
+    0% {
+        border-bottom: 4px solid aliceblue;
+    }
+
+    25% {
+        border-bottom: 4px solid #FD395D;
+    }
+
+    50% {
+        border-bottom: 4px solid aliceblue;
+    }
+
+    75% {
+        border-bottom: 4px solid #FD395D;
+    }
+
+    100% {
+        border-bottom: 4px solid aliceblue;
+    }
+}
