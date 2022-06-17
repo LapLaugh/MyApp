@@ -1,0 +1,70 @@
+.body-layout {
+    height: 100%;
+
+    .body-sider {
+        background-color: #1C2126;
+    }
+
+    .body-header {
+        height: 10%;
+        background-color: #1C2126;
+    }
+
+    .body-content {
+        // background: url(https://swarena.gg/_nuxt/img/left-col-img.4184ac4.jpg) no-repeat center;
+        // box-shadow: inset 1000px 0 0 1000px;
+        background-size: cover;
+        background-color: #1C2126;
+        overflow: auto;
+
+        .col-cate {
+
+            // border-right: 1px solid whitesmoke;
+            &:hover {
+                box-shadow: inset 0 0 0 1000px #555;
+                // border: 1px solid #555;
+                border-radius: 5px;
+                opacity: 70%;
+            }
+        }
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #1C2126;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .body-footer {
+        background-color: #1C2126;
+    }
+}
+
+.card-modify {
+    background-color: inherit;
+    color: whitesmoke;
+    border-color: #1C2126;
+
+    .card-meta-title {
+        color: whitesmoke;
+        background-color: inherit;
+    }
+
+    .card-meta-description {
+        color: whitesmoke;
+    }
+}

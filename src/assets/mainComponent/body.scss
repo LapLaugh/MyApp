@@ -1,6 +1,5 @@
-@import '../bodyComponent.scss';
-
 .app-body {
+    @import '../bodyComponent.scss';
     width: 100%;
     height: calc(100% - 75px);
     margin-top: 75px;

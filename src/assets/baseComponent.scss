@@ -1,8 +1,7 @@
-@import './mainComponent/header.scss';
-@import './mainComponent/body.scss';
-@import './globalComponent.scss';
-
 .body {
+    @import './mainComponent/header.scss';
+    @import './mainComponent/body.scss';
+    @import './globalComponent.scss';
     position: fixed;
     background-color: #23282E;
     width: 100%;
